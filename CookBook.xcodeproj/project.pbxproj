@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		064AF42C1E64EEF1006E6061 /* EggViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 064AF42B1E64EEF1006E6061 /* EggViewController.m */; };
 		0684A7301E5CEE5A00DB055F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0684A72F1E5CEE5A00DB055F /* main.m */; };
 		0684A7331E5CEE5A00DB055F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0684A7321E5CEE5A00DB055F /* AppDelegate.m */; };
 		0684A7361E5CEE5A00DB055F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0684A7351E5CEE5A00DB055F /* ViewController.m */; };
@@ -16,6 +17,16 @@
 		0684A7411E5CEE5A00DB055F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0684A73F1E5CEE5A00DB055F /* LaunchScreen.storyboard */; };
 		0684A74C1E5CEE5A00DB055F /* CookBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0684A74B1E5CEE5A00DB055F /* CookBookTests.m */; };
 		0684A7571E5CEE5B00DB055F /* CookBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0684A7561E5CEE5B00DB055F /* CookBookUITests.m */; };
+		0684A7661E5CF22900DB055F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0684A7651E5CF22900DB055F /* MainViewController.m */; };
+		0684A7681E5CFE2D00DB055F /* india.png in Resources */ = {isa = PBXBuildFile; fileRef = 0684A7671E5CFE2D00DB055F /* india.png */; };
+		0684A76A1E5CFE3300DB055F /* usa.png in Resources */ = {isa = PBXBuildFile; fileRef = 0684A7691E5CFE3300DB055F /* usa.png */; };
+		0684A76D1E5D003E00DB055F /* indiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0684A76C1E5D003E00DB055F /* indiaViewController.m */; };
+		06C1D5BC1E5D0DD900D48EAF /* indiaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C1D5BB1E5D0DD900D48EAF /* indiaTableViewCell.m */; };
+		06C1D5BE1E5D127C00D48EAF /* chicken.png in Resources */ = {isa = PBXBuildFile; fileRef = 06C1D5BD1E5D127C00D48EAF /* chicken.png */; };
+		06C1D5C11E5D140400D48EAF /* chickenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C1D5C01E5D140400D48EAF /* chickenViewController.m */; };
+		06C1D5C41E5D1D3300D48EAF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06C1D5C31E5D1D3300D48EAF /* AVFoundation.framework */; };
+		06C1D5C61E5D1D3B00D48EAF /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06C1D5C51E5D1D3B00D48EAF /* AVKit.framework */; };
+		06C1D5C91E5E5FBB00D48EAF /* 12512468_1049682341769015_8519392163478446518_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06C1D5C81E5E5FBB00D48EAF /* 12512468_1049682341769015_8519392163478446518_n.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		064AF42A1E64EEF1006E6061 /* EggViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EggViewController.h; sourceTree = "<group>"; };
+		064AF42B1E64EEF1006E6061 /* EggViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EggViewController.m; sourceTree = "<group>"; };
 		0684A72B1E5CEE5A00DB055F /* CookBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0684A72F1E5CEE5A00DB055F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0684A7311E5CEE5A00DB055F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +66,21 @@
 		0684A7521E5CEE5A00DB055F /* CookBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0684A7561E5CEE5B00DB055F /* CookBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CookBookUITests.m; sourceTree = "<group>"; };
 		0684A7581E5CEE5B00DB055F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0684A7641E5CF22900DB055F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0684A7651E5CF22900DB055F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		0684A7671E5CFE2D00DB055F /* india.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = india.png; sourceTree = "<group>"; };
+		0684A7691E5CFE3300DB055F /* usa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usa.png; sourceTree = "<group>"; };
+		0684A76B1E5D003E00DB055F /* indiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = indiaViewController.h; sourceTree = "<group>"; };
+		0684A76C1E5D003E00DB055F /* indiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = indiaViewController.m; sourceTree = "<group>"; };
+		06C1D5BA1E5D0DD900D48EAF /* indiaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = indiaTableViewCell.h; sourceTree = "<group>"; };
+		06C1D5BB1E5D0DD900D48EAF /* indiaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = indiaTableViewCell.m; sourceTree = "<group>"; };
+		06C1D5BD1E5D127C00D48EAF /* chicken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chicken.png; sourceTree = "<group>"; };
+		06C1D5BF1E5D140400D48EAF /* chickenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chickenViewController.h; sourceTree = "<group>"; };
+		06C1D5C01E5D140400D48EAF /* chickenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chickenViewController.m; sourceTree = "<group>"; };
+		06C1D5C31E5D1D3300D48EAF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		06C1D5C51E5D1D3B00D48EAF /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		06C1D5C71E5D1EC600D48EAF /* IMG_0387.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_0387.mp4; sourceTree = "<group>"; };
+		06C1D5C81E5E5FBB00D48EAF /* 12512468_1049682341769015_8519392163478446518_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12512468_1049682341769015_8519392163478446518_n.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06C1D5C61E5D1D3B00D48EAF /* AVKit.framework in Frameworks */,
+				06C1D5C41E5D1D3300D48EAF /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +117,7 @@
 				0684A74A1E5CEE5A00DB055F /* CookBookTests */,
 				0684A7551E5CEE5B00DB055F /* CookBookUITests */,
 				0684A72C1E5CEE5A00DB055F /* Products */,
+				06C1D5C21E5D1D3300D48EAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,8 +138,23 @@
 				0684A7321E5CEE5A00DB055F /* AppDelegate.m */,
 				0684A7341E5CEE5A00DB055F /* ViewController.h */,
 				0684A7351E5CEE5A00DB055F /* ViewController.m */,
+				0684A7641E5CF22900DB055F /* MainViewController.h */,
+				0684A7651E5CF22900DB055F /* MainViewController.m */,
+				0684A76B1E5D003E00DB055F /* indiaViewController.h */,
+				0684A76C1E5D003E00DB055F /* indiaViewController.m */,
+				06C1D5BA1E5D0DD900D48EAF /* indiaTableViewCell.h */,
+				06C1D5BB1E5D0DD900D48EAF /* indiaTableViewCell.m */,
+				06C1D5BF1E5D140400D48EAF /* chickenViewController.h */,
+				06C1D5C01E5D140400D48EAF /* chickenViewController.m */,
+				064AF42A1E64EEF1006E6061 /* EggViewController.h */,
+				064AF42B1E64EEF1006E6061 /* EggViewController.m */,
 				0684A7371E5CEE5A00DB055F /* Main.storyboard */,
+				0684A7691E5CFE3300DB055F /* usa.png */,
+				0684A7671E5CFE2D00DB055F /* india.png */,
+				06C1D5BD1E5D127C00D48EAF /* chicken.png */,
 				0684A73D1E5CEE5A00DB055F /* Assets.xcassets */,
+				06C1D5C81E5E5FBB00D48EAF /* 12512468_1049682341769015_8519392163478446518_n.jpg */,
+				06C1D5C71E5D1EC600D48EAF /* IMG_0387.mp4 */,
 				0684A73F1E5CEE5A00DB055F /* LaunchScreen.storyboard */,
 				0684A7421E5CEE5A00DB055F /* Info.plist */,
 				0684A73A1E5CEE5A00DB055F /* CookBook.xcdatamodeld */,
@@ -141,6 +187,15 @@
 				0684A7581E5CEE5B00DB055F /* Info.plist */,
 			);
 			path = CookBookUITests;
+			sourceTree = "<group>";
+		};
+		06C1D5C21E5D1D3300D48EAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06C1D5C51E5D1D3B00D48EAF /* AVKit.framework */,
+				06C1D5C31E5D1D3300D48EAF /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +305,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0684A7411E5CEE5A00DB055F /* LaunchScreen.storyboard in Resources */,
+				06C1D5BE1E5D127C00D48EAF /* chicken.png in Resources */,
+				0684A76A1E5CFE3300DB055F /* usa.png in Resources */,
+				06C1D5C91E5E5FBB00D48EAF /* 12512468_1049682341769015_8519392163478446518_n.jpg in Resources */,
+				0684A7681E5CFE2D00DB055F /* india.png in Resources */,
 				0684A73E1E5CEE5A00DB055F /* Assets.xcassets in Resources */,
 				0684A7391E5CEE5A00DB055F /* Main.storyboard in Resources */,
 			);
@@ -276,9 +335,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0684A76D1E5D003E00DB055F /* indiaViewController.m in Sources */,
 				0684A73C1E5CEE5A00DB055F /* CookBook.xcdatamodeld in Sources */,
 				0684A7361E5CEE5A00DB055F /* ViewController.m in Sources */,
 				0684A7331E5CEE5A00DB055F /* AppDelegate.m in Sources */,
+				064AF42C1E64EEF1006E6061 /* EggViewController.m in Sources */,
+				06C1D5BC1E5D0DD900D48EAF /* indiaTableViewCell.m in Sources */,
+				0684A7661E5CF22900DB055F /* MainViewController.m in Sources */,
+				06C1D5C11E5D140400D48EAF /* chickenViewController.m in Sources */,
 				0684A7301E5CEE5A00DB055F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +575,7 @@
 				0684A75D1E5CEE5B00DB055F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0684A75E1E5CEE5B00DB055F /* Build configuration list for PBXNativeTarget "CookBookTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +584,7 @@
 				0684A7601E5CEE5B00DB055F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0684A7611E5CEE5B00DB055F /* Build configuration list for PBXNativeTarget "CookBookUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +593,7 @@
 				0684A7631E5CEE5B00DB055F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

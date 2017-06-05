@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MainViewController.h"
 
 @interface ViewController ()
 
@@ -26,4 +27,16 @@
 }
 
 
+- (IBAction)login:(id)sender {
+    
+
+}
+
+- (IBAction)Guest:(id)sender {
+    UIStoryboard *storyboard=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    MainViewController *mainViewController=[storyboard instantiateViewControllerWithIdentifier:@"Main"];
+    
+
+    [self presentViewController:mainViewController animated:YES completion:nil];
+}
 @end
